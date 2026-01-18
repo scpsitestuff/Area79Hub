@@ -1,0 +1,50 @@
+@font-face {
+    font-family: "EpetriFont";
+    src: url(../Fonts/EpetriRegular.otf);
+}
+
+@font-face {
+    font-family: "scpFont";
+    src: url(../Fonts/scpFont.otf);
+}
+
+body {
+    color:white;
+    background-color: black;
+}
+
+h1 {
+    font-family: EpetriFont;
+}
+
+a {
+    font-family: scpFont;
+    font-size: 35px;
+}
+
+/* Div's */
+#Stuff {
+    display: grid;
+    place-items: center;
+    margin-top: 50px
+}
+
+#logo {
+    animation: spinny 50s infinite linear;
+    width: 300px;
+    height: 300px
+}
+
+#header {
+    font-size: 70px;
+}
+
+/* Animations */
+@keyframes spinny {
+    from {
+        rotate: 0deg;
+    }
+    to {
+        rotate: 360deg
+    }
+}
