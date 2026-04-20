@@ -1,0 +1,31 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Research Database Login Page</title>
+    <!-- Favicon -->
+    <link rel="icon" href="../Images/a79logo.png" />
+    <!-- Stylesheet -->
+    <link rel="Stylesheet" href="../Stylesheets/researchStylesheet.css" />
+    <!-- Script -->
+    <script src="/Scripts/loginScript.js"></script>
+  </head>
+  <body>
+    <img id="Logo79" src="../Images/a79logo.png" alt="Area-79 Logo">
+
+    <div id="Stuff">
+      <img id="RLogo" src="../Images/MD.webp" />
+      <h1>Welcome to the Research Department Database.</h1>
+      <h2 style="margin-top: 0px;"></h2>
+
+      <input id="user" style="font-size: 20px" placeholder="Username">
+      <br>
+      <input id="pass" style="font-size: 20px" placeholder="Password">
+      <br>
+      <button style="font-size: 20px", onclick=researchSubmit()>Submit</button>
+      <br>
+      <h2 id="wrong" style="color: Red; visibility: hidden;">Incorrect Password. Try Again.</h2>
+    </div>
+  </body>
+</html>
